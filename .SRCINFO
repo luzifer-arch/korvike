@@ -1,0 +1,13 @@
+pkgbase = korvike
+	pkgdesc = korvike takes a Go template and executes it
+	pkgver = 0.13.0
+	pkgrel = 1
+	url = https://github.com/Luzifer/korvike
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	source = korvike-0.13.0.tar.gz::https://github.com/Luzifer/korvike/archive/v0.13.0.tar.gz
+	sha512sums = dffcdf394f93e587c9784543468684825b08b66c13190e645de8c3d5b5f9e92daad88e67e7393a0b2b6e6879c648bba54b452429e010ce340aa31a2bf1e51f30
+
+pkgname = korvike

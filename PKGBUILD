@@ -1,7 +1,7 @@
 # Maintainer: Knut Ahlers <knut at ahlers dot me>
 
 pkgname=korvike
-pkgver=0.13.0
+pkgver=1.0.0
 pkgrel=1
 pkgdesc="korvike takes a Go template and executes it"
 arch=('i686' 'x86_64')
@@ -10,7 +10,7 @@ license=('Apache')
 depends=()
 makedepends=('go')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
-sha512sums=('dffcdf394f93e587c9784543468684825b08b66c13190e645de8c3d5b5f9e92daad88e67e7393a0b2b6e6879c648bba54b452429e010ce340aa31a2bf1e51f30')
+sha512sums=('e17dfe2b812bc1a7f61e6760ff0186c0e4bf1e1380f10882ddca9999e3795c0001efe2c95b32f304e11a0842aedef0c7fc7ea005bf1c2a18c6c1ce16bc274abd')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
